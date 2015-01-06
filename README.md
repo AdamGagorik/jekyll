@@ -72,6 +72,47 @@ Here are the steps for a **user page**.
 
  * **Gemfile** and **Gemfile.lock** should be committed to the **gh-pages** branch.
 
+## Jekyll
+
+There are quite a few ways to get started.
+
+###### Vanilla setup
+
+```bash
+# assuming gh-pages is empty
+git checkout gh-pages
+jekyll new .
+
+# if you have other stuff, like Gemfile or gitignore...
+git checkout gh-pages
+jekyll new tmp
+mv tmp/* .
+rmdir tmp/
+```
+
+###### Themed
+
+There are quite a few themes online.
+You can fork the theme's repository, and change the name (*see above for naming conventions*).
+Make your custom changes and push them to your fork.
+If the theme maintainer updates the theme, you can merge them into your fork.
+
+You could also just add the theme repository as a remote and pull in its changes.
+
+```bash
+# add theme as a remote
+git remote add hyde git@github.com:poole/hyde.git
+
+# merge in theme
+git fetch hyde
+git merge hyde/gh-pages gh-pages
+```
+
+###### Abstracted framework
+
+There are frameworks such as jekyll-bootstrap or octopress that claim to make using jekyll easier.
+You can follow their specific instructions.
+
 ## Preview Locally
 
 ```bash
