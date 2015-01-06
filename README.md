@@ -102,10 +102,8 @@ You could also just add the theme repository as a remote and pull in its changes
 ```bash
 # add theme as a remote
 git remote add hyde git@github.com:poole/hyde.git
-
-# merge in theme
 git fetch hyde
-git merge hyde/gh-pages gh-pages
+git merge hyde/master gh-pages
 ```
 
 ###### Abstracted framework
