@@ -82,7 +82,7 @@ bundle exec jekyll serve
 gnome-www-browser http://0.0.0.0:4000/
 ```
 
-## Publish
+## View Externally
 
 ###### Project-page
 
