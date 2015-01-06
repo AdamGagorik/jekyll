@@ -72,8 +72,28 @@ Here are the steps for a **user page**.
 
  * **Gemfile** and **Gemfile.lock** should be committed to the **gh-pages** branch.
 
-## Preview
+## Preview Locally
 
 ```bash
+# start server
 bundle exec jekyll serve
+
+# open browser
+gnome-www-browser http://0.0.0.0:4000/
+```
+
+## Publish
+
+###### Project-page
+
+```bash
+# open browser
+gnome-www-browser http://username.github.io/repo-name
+```
+
+###### User-page
+
+```bash
+# open browser
+gnome-www-browser http://username.github.io/
 ```
