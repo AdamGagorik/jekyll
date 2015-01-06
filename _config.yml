@@ -1,0 +1,11 @@
+# Site settings
+title: Title
+email: email@domain.com
+description: description goes here
+baseurl: ""
+url: "http://adamgagorik.github.io/jekyll.test/"
+twitter_username: tname
+github_username: gname
+
+# Build settings
+markdown: kramdown
