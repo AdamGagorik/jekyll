@@ -97,3 +97,32 @@ gnome-www-browser http://username.github.io/repo-name
 # open browser
 gnome-www-browser http://username.github.io/
 ```
+
+## Workflow
+
+```bash
+# do work on some branch
+git branch newstuff gh-pages
+git checkout newstuff
+
+# create or edit some files
+echo "Hello!" >> about.html
+
+# add the files an commit
+git a about.html
+git commit -m "add about page"
+
+# preview the changes
+bundle exec jekyll serve
+gnome-www-browser http://0.0.0.0:4000/
+
+# merge the changes into the gh-pages branch
+git checkout gh-pages
+git merge newstuff
+
+# push the changes to github
+git push origin gh-pages
+
+# view the changes online
+gnome-www-browser http://username.github.io/repo-name
+```
