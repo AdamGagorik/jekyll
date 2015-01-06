@@ -90,6 +90,19 @@ mv tmp/* .
 rmdir tmp/
 ```
 
+As described in http://jekyllrb.com/docs/github-pages/
+
+Change the config file:
+
+```yaml
+baseurl : "/project-name"
+```
+
+Change the references to css:
+```
+{{ site.baseurl }}/path/to/css.css
+```
+
 ###### Themed
 
 There are quite a few themes online.
