@@ -68,6 +68,10 @@ Here are the steps for a **user page**.
  1. Create repository on github with the name username.github.io
  2. Add content and push to the **master** branch.
 
+###### Notes
+
+ * **Gemfile** and **Gemfile.lock** should be committed to the **gh-pages** branch.
+
 ## Preview
 
 ```bash
