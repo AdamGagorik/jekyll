@@ -2,8 +2,8 @@
 title: Title
 email: email@domain.com
 description: description goes here
-baseurl: "/jekyll.test"
-url: "http://adamgagorik.github.io/jekyll.test"
+baseurl: "/jekyll"
+url: "http://aggex.github.io/jekyll"
 twitter_username: tname
 github_username: gname
 
