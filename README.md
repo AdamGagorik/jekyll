@@ -1,8 +1,8 @@
-### Jekyll.test
+### Jekyll
 
 A test website using GitHub pages and jekyll.
 
-http://adamgagorik.github.io/jekyll.test
+http://aggex.github.io/jekyll/
 
 ## Requirements
 
