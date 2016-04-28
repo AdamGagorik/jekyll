@@ -2,7 +2,7 @@
 
 A test website using GitHub pages and jekyll.
 
-http://aggex.github.io/jekyll/
+http://adamgagorik.github.io/jekyll/
 
 ## Requirements
 
